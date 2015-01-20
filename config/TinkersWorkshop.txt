@@ -1,0 +1,213 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:"Held Item Block"=1552
+    I:"Lava Tank"=1553
+    I:"Liquid Metal Flowing"=1554
+    I:"Liquid Metal Still"=1555
+    I:"Metal Storage"=1556
+    I:"Multi Brick"=1557
+    I:"Ore Berry One"=1558
+    I:"Ore Berry Two"=1559
+    I:"Ores Gravel"=1560
+    I:"Ores Slag"=1561
+    I:"Seared Table"=1562
+    I:Smeltery=1563
+    I:"Special Soil"=1564
+    I:"Speed Block"=1565
+    I:"Stone Torch"=1566
+    I:"Wood Tool Station"=1567
+}
+
+
+####################
+# difficulty changes
+####################
+
+"difficulty changes" {
+    B:"Enable mod bone tools"=true
+    B:"Enable mod cactus tools"=true
+    B:"Enable mod stone tools"=true
+    B:"Enable mod wooden tools"=true
+    B:"Keep hunger on death"=true
+    B:"Keep levels on death"=true
+    B:"Remove Overworld void fog"=true
+    B:"Turn water clear"=true
+}
+
+
+####################
+# equipables
+####################
+
+equipables {
+    I:"Heart Canister"=20431
+    I:"Heavy Helmet"=20432
+}
+
+
+####################
+# general
+####################
+
+general {
+    I:"Sea level"=64
+}
+
+
+####################
+# mob spawning
+####################
+
+"mob spawning" {
+    B:"Activate Blue Slime Spawns"=true
+    B:"Activate Nitro Creeper Spawns"=true
+    I:"Spawn Weight for Blue Slime"=8
+    I:"Spawn Weight for Nitro Creeper"=8
+}
+
+
+####################
+# patterns and misc
+####################
+
+"patterns and misc" {
+    I:"Blank Patterns"=20433
+    I:Buckets=20434
+    I:Materials=20435
+    I:"Metal Pattern"=20436
+    I:"Ore Chunks"=20437
+    I:"Strange Food"=20438
+    I:"Tinker's Manual"=20439
+    I:"Title Icon"=20440
+    I:"Tool Rod"=20441
+    I:"Tool Shard"=20442
+    I:"Wood Pattern"=20443
+}
+
+
+####################
+# superfun
+####################
+
+superfun {
+    B:"All the world is Superfun"=false
+}
+
+
+####################
+# tool parts
+####################
+
+"tool parts" {
+    I:"Axe Head"=20444
+    I:"Chisel Head"=20445
+    I:Crossbar=20446
+    I:"Frypan Head"=20447
+    I:"Hoe Head"=20448
+    I:"Knife Blade"=20449
+    I:"Large Guard"=20450
+    I:"Lumber Axe Head"=20451
+    I:"Medium Guard"=20452
+    I:"Pickaxe Head"=20453
+    I:"Shovel Head"=20454
+    I:"Sign Head"=20455
+    I:"Sword Blade"=20456
+    I:"Tool Binding"=20457
+}
+
+
+####################
+# tools
+####################
+
+tools {
+    I:Axe=20458
+    I:Battlesign=20459
+    I:Broadsword=20460
+    I:Chisel=20461
+    I:Dagger=20462
+    I:"Frying Pan"=20463
+    I:Hoe=20464
+    I:Longbow=20465
+    I:Longsword=20466
+    I:"Lumber Axe"=20467
+    I:Mattock=20468
+    I:Pickaxe=20469
+    I:"Potion Launcher"=20470
+    I:Rapier=20471
+    I:Shortbow=20472
+    I:Shovel=20473
+}
+
+
+####################
+# worldgen
+####################
+
+worldgen {
+    I:"Aluminum Bush Density"=2
+    I:"Aluminum Bush Max Y"=60
+    I:"Aluminum Bush Min Y"=0
+    I:"Aluminum Bush Rarity"=1
+    I:"Aluminum Surface Rarity"=70
+    I:"Aluminum Underground Density"=1
+    I:"Aluminum Underground Max Y"=64
+    I:"Aluminum Underground Min Y"=0
+    I:"Cobalt Surface Rarity"=1500
+    I:"Copper Bush Density"=2
+    I:"Copper Bush Max Y"=60
+    I:"Copper Bush Min Y"=20
+    I:"Copper Bush Rarity"=1
+    I:"Copper Surface Rarity"=80
+    I:"Copper Underground Density"=1
+    I:"Copper Underground Max Y"=60
+    I:"Copper Underground Min Y"=20
+    I:"Gold Bush Density"=1
+    I:"Gold Bush Rarity"=4
+    I:"Gold Surface Rarity"=700
+    I:"Iron Bush Density"=1
+    I:"Iron Bush Rarity"=2
+    I:"Iron Surface Rarity"=200
+    I:"Nether Ores Density"=8
+    I:"Silver Bush Density"=1
+    I:"Silver Bush Rarity"=2
+    I:"Tin Bush Density"=2
+    I:"Tin Bush Max Y"=40
+    I:"Tin Bush Min Y"=0
+    I:"Tin Bush Rarity"=1
+    I:"Tin Surface Rarity"=80
+    I:"Tin Underground Density"=1
+    I:"Tin Underground Max Y"=40
+    I:"Tin Underground Min Y"=0
+}
+
+
+####################
+# worldgen disabler
+####################
+
+"worldgen disabler" {
+    B:"Add Village Generation"=true
+    B:"Generate Aluminum"=false
+    B:"Generate Aluminum Bushes"=true
+    B:"Generate Cobalt and Ardite"=true
+    B:"Generate Copper"=false
+    B:"Generate Copper Bushes"=true
+    B:"Generate Gold Bushes"=true
+    B:"Generate Iron Bushes"=true
+    B:"Generate Silver Bushes"=true
+    B:"Generate Surface Aluminum"=true
+    B:"Generate Surface Copper"=true
+    B:"Generate Surface Gold"=true
+    B:"Generate Surface Iron"=true
+    B:"Generate Surface Tin"=true
+    B:"Generate Tin"=false
+    B:"Generate Tin Bushes"=true
+}
+
+
